@@ -4,7 +4,7 @@ function playGame() {
     userChoice = window.prompt("Select either rock (r), paper (p) or scissor (s)?").toLowerCase().trim();
     var computer_choice = gameOptions[(Math.round(Math.random()*10) % 3)];
 
-    if (userChoice === 'paper' || user_choice === 'rock' || user_choice === 'scissors' || userChoice == 's'
+    if (userChoice === 'paper' || userChoice === 'rock' || userChoice === 'scissors' || userChoice == 's'
     || userChoice == "r" || userChoice == 'p') {
 
         window.console.log("CPUs choice:" + computer_choice);
